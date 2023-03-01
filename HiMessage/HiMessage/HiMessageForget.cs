@@ -116,9 +116,9 @@ namespace HiMessage
                 string konu = "Your HiMessage account information";
                 string icerik = "Your information is safe with us.\n Account password is: " + lblforgetpassword.Text;
 
-                sc.Credentials = new NetworkCredential("aydemirsoftware@gmail.com", "191119ea");
+                sc.Credentials = new NetworkCredential("xxxx@gmail.com", "xxxx");
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("aydemirsoftware@gmail.com", "AYDEMİR YAZILIM");
+                mail.From = new MailAddress("xxxx@gmail.com", "AYDEMİR YAZILIM");
                 mail.To.Add(kime);
                 mail.Subject = konu;
                 mail.IsBodyHtml = true;
@@ -167,9 +167,9 @@ namespace HiMessage
             string konu = "Your HiMessage account verify!";
             string icerik = "Your information is safe with us.\n Verification Code is: " + sayi.ToString();
 
-            sc.Credentials = new NetworkCredential("aydemirsoftware@gmail.com", "191119ea");
+            sc.Credentials = new NetworkCredential("xxxx@gmail.com", "xxxx");
             MailMessage mail = new MailMessage();
-            mail.From = new MailAddress("aydemirsoftware@gmail.com", "AYDEMİR YAZILIM");
+            mail.From = new MailAddress("xxxx@gmail.com", "AYDEMİR YAZILIM");
             mail.To.Add(kime);
             mail.Subject = konu;
             mail.IsBodyHtml = true;
